@@ -1,0 +1,5 @@
+{
+    "python": "Begin with Python basics, followed by data structures, and then dive into web development.",
+    "django": "Learn Django fundamentals, models, views, and templates, then explore RESTful APIs.",
+    "machine_learning": "Start with machine learning concepts, understand algorithms, and apply them in projects."
+}
