@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1 class="text-center">Study Companion</h1>
+<form method="post" enctype="multipart/form-data" class="text-center">
+    {% csrf_token %}
+    <div class="mb-3">
+        <label for="formFile" class="form-label">Upload your PDF notes</label>
+        <input class="form-control" type="file" id="formFile" name="pdf">
+    </div>
+    <div class="mb-3">
+        <label for="question" class="form-label">Ask a question about your notes</label>
+        <input class="form-control" type="text" id="question" name="question" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+{% endblock %}
